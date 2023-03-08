@@ -1,0 +1,4 @@
+[[ d1_databases ]]
+binding = "DB" # i.e. available in your Worker on env.DB
+database_name = "DB_FLARE"
+database_id = "9b81ffc3-5e2d-4db8-a6a3-15fffe842875"
