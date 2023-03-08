@@ -12,5 +12,5 @@ export async function GET({platform}) {
   // const data = await ps.first();
   // const test = 'hello world';
 
-  return json('resulths');
+  return json(results);
 }
