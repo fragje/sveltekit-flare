@@ -5,7 +5,7 @@ export async function GET({platform}) {
   const { results } = await platform.env.DB.prepare(
     "SELECT * FROM Customers WHERE CompanyName = ?"
   )
-    .bind("Around the Horn")
+    .bind("Bs Beverages")
     .all();
 
   return json(results);

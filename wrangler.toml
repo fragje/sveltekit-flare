@@ -1,3 +1,7 @@
+kv_namespaces = [
+  { binding = "KV", id = "39e258c45ae246578e9466e8b31fb048", preview_id = "f86f3aec26964cb1bb8a611738ccc335" }
+]
+
 [[ d1_databases ]]
 binding = "DB" # i.e. available in your Worker on env.DB
 database_name = "DB_FLARE"
