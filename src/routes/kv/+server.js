@@ -2,7 +2,7 @@ import { json } from "@sveltejs/kit";
 
 export async function GET({platform}) {
   console.log(platform);
-  const { results } = await platform.env.KV('count');
+  const count = platform.env.KV.get('count');
 
-  return json(results);
+  return json(count);
 }
